@@ -1,5 +1,8 @@
-# Access needs posters
-These posters cover the following access needs:
+# Home Office accessibility posters
+
+Posters covering how to make services and products accessible for everyone, whatever their access need.
+
+They cover the following access needs:
 
 - Anxiety
 - Autism
