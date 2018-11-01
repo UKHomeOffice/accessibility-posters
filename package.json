@@ -1,0 +1,26 @@
+{
+  "name": "accessibility posters",
+  "version": "1.0.0",
+  "description": "Accessibility posters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UKHomeOffice/accessibility-posters"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UKHomeOffice/accessibility-posters"
+  },
+  "homepage": "https://github.com/UKHomeOffice/accessibility-posters",
+  "devDependencies": {
+    "gulp-clean-css": "^3.10.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
