@@ -1,0 +1,66 @@
+// Import Inter UI font
+@import url('https://rsms.me/inter/inter-ui.css');
+
+body {
+  font-family: 'Inter UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: $black;
+}
+
+.heading-xlarge {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 0.25em;
+}
+
+.heading-large, h2 {
+  font-size: 32px;
+  line-height: 1.3;
+}
+
+.heading-medium, h3 {
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+.heading-small {
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #444;
+}
+
+.lede {
+  line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+
+  .lede {
+    line-height: 1.45;
+    font-size: 17px!important;
+  }
+
+  body p {
+    font-size: 15px!important;
+  }
+
+  .heading-xlarge {
+    font-size: 32px;
+  }
+
+  .heading-large, h2 {
+    font-size: 24px;
+  }
+
+  .heading-medium, h3 {
+    font-size: 20px;
+  }
+
+}
