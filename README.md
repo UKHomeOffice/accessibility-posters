@@ -1,5 +1,8 @@
-# Access needs posters
-These posters cover the following access needs:
+# Home Office accessibility posters
+
+Posters covering how to make services and products accessible for everyone, whatever their access need.
+
+They cover the following access needs:
 
 - Anxiety
 - Autism
@@ -9,6 +12,6 @@ These posters cover the following access needs:
 - Visually impaired - low vision users
 - Visually impaired - screenreader users
 
-You can read about how the Do's and Don'ts posters were developed on our blog: [accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+You can read about how the posters were developed on our blog post [accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/).
 
-The posters are available in PDF to download and use [github.com/UKHomeOffice/posters](https://github.com/UKHomeOffice/posters)
+Help make them better and download a copy at [github.com/UKHomeOffice/posters](https://github.com/UKHomeOffice/posters).
