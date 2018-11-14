@@ -1,0 +1,59 @@
+.home-card {
+  margin-right: 1.5rem;
+  background-color: $white;
+
+  p {
+    text-align: center;
+  }
+
+  a .anxiety:hover {
+    background-color: $anxiety;
+  }
+
+  a .autism:hover {
+    background-color: $autism;
+  }
+
+  a .deaf:hover {
+    background-color: $deaf;
+  }
+
+  a .dyslexia:hover {
+    background-color: $dyslexia;
+  }
+
+  a .lowvision:hover {
+    background-color: $lowvision;
+  }
+
+  a .physical:hover {
+    background-color: $physical;
+  }
+
+  a .screenreaders:hover {
+    background-color: $screenreaders;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .home-card {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .home-card {
+
+  }
+
+  .home-img-container {
+    height: 16rem;
+
+    img {
+      max-height: 70%;
+    }
+  }
+
+}
