@@ -206,11 +206,6 @@ body {
     display: block;
     color: black; }
 
-.home-card {
-  margin: 1.6rem 0; }
-  .home-card p {
-    text-align: center; }
-
 .full-width {
   padding: 1.5rem;
   background-color: #d4e7f4; }
@@ -224,24 +219,6 @@ body {
     max-width: 50%;
     max-height: 8rem;
     margin: 2rem 0; }
-
-.autism-link {
-  background-color: #D4D4C9; }
-
-.screenreaders-link {
-  background-color: #C8D8CC; }
-
-.lowvision-link {
-  background-color: #B1DADF; }
-
-.dyslexia-link {
-  background-color: #E7E2CB; }
-
-.deaf-link {
-  background-color: #DFD1DA; }
-
-.physical-link {
-  background-color: #BEDEDB; }
 
 
 /* for devices wider than a phablet -------------------------------------*/
@@ -258,12 +235,7 @@ body {
     padding-left: 3rem;
     color: black;
     text-decoration: underline; }
-  .home-card {
-    margin: 1.6rem; }
-  .home-img-container {
-    height: 16rem; }
-    .home-img-container img {
-      max-height: 70%; }
+  
   .email-footer {
     margin: 4.8rem 0 3.2rem 0; }
   .titleFlexParent {
