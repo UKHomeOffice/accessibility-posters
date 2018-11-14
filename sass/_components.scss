@@ -11,6 +11,7 @@
 
 .card-content {
    display: flex;
+   justify-content: space-between;
    flex-direction: column;
    background-color: $white;
    padding: 1em;
@@ -31,14 +32,14 @@
 
    img {
      align-self: flex-end;
-     width: 50%;
+     width: 40%;
      height: auto;
    }
 }
 
 @media all and (min-width: 40em) {
   .card-item {
-    width: 50%;
+    width: 45%;
   }
 }
 @media all and (min-width: 60em) {
