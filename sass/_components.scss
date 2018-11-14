@@ -1,59 +1,76 @@
-.home-card {
-  margin-right: 1.5rem;
-  background-color: $white;
-
-  p {
-    text-align: center;
-  }
-
-  a .anxiety:hover {
-    background-color: $anxiety;
-  }
-
-  a .autism:hover {
-    background-color: $autism;
-  }
-
-  a .deaf:hover {
-    background-color: $deaf;
-  }
-
-  a .dyslexia:hover {
-    background-color: $dyslexia;
-  }
-
-  a .lowvision:hover {
-    background-color: $lowvision;
-  }
-
-  a .physical:hover {
-    background-color: $physical;
-  }
-
-  a .screenreaders:hover {
-    background-color: $screenreaders;
-  }
-
+.card {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-@media (max-width: 1024px) {
-  .home-card {
-    margin-right: 1rem;
+.card-item {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.card-content {
+   display: flex;
+   flex-direction: column;
+   background-color: $white;
+   padding: 1em;
+   width: 100%;
+
+   .heading-large {
+     font-size: 28px;
+   }
+
+   h2 {
+     margin-top: 5px;
+
+     a {
+       color: $black;
+       text-decoration: none;
+     }
+   }
+
+   img {
+     align-self: flex-end;
+     width: 50%;
+     height: auto;
+   }
+}
+
+@media all and (min-width: 40em) {
+  .card-item {
+    width: 50%;
+  }
+}
+@media all and (min-width: 60em) {
+  .card-item {
+    width: 31.33%;
   }
 }
 
-@media (max-width: 640px) {
+.anxiety:hover {
+  background-color: $anxiety;
+}
 
-  .home-card {
+a .autism:hover {
+  background-color: $autism;
+}
 
-  }
+a .deaf:hover {
+  background-color: $deaf;
+}
 
-  .home-img-container {
-    height: 16rem;
+a .dyslexia:hover {
+  background-color: $dyslexia;
+}
 
-    img {
-      max-height: 70%;
-    }
-  }
+a .lowvision:hover {
+  background-color: $lowvision;
+}
 
+a .physical:hover {
+  background-color: $physical;
+}
+
+a .screenreaders:hover {
+  background-color: $screenreaders;
 }
