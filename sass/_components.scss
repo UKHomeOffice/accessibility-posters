@@ -1,12 +1,16 @@
-.card {
+.card, .poster-card {
   display: flex;
   flex-wrap: wrap;
 }
 
-.card-item {
+.card-item, .poster-card-item {
   display: flex;
   padding: 0.5em;
   width: 100%;
+}
+
+.poster-card {
+  margin-left: -25px;
 }
 
 .card-content {
@@ -37,6 +41,26 @@
    }
 }
 
+.poster-card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $white;
+  padding: 1em;
+  width: 100%;
+
+  img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media all and (min-width: 60em) {
+  .poster-card-item {
+    width: 45%;
+  }
+}
+
 @media all and (min-width: 40em) {
   .card-item {
     width: 45%;
@@ -47,6 +71,15 @@
     width: 31.33%;
   }
 }
+
+.poster-card__do {
+  border-bottom: 5px $green solid;
+}
+
+.poster-card__dont {
+  border-bottom: 5px $red solid;
+}
+
 
 .anxiety:hover {
   background-color: $anxiety;

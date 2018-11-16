@@ -9,6 +9,10 @@ body {
   padding: 30px 20px;
 }
 
+.poster-sets {
+  padding-left: 5px;
+}
+
 @media (max-width: 690px) {
   .hero, main {
     padding: 20px 15px;
@@ -235,7 +239,7 @@ body {
     padding-left: 3rem;
     color: black;
     text-decoration: underline; }
-  
+
   .email-footer {
     margin: 4.8rem 0 3.2rem 0; }
   .titleFlexParent {
