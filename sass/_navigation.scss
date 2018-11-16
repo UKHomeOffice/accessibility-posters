@@ -1,0 +1,35 @@
+.posters-nav {
+  margin-top: 2.3rem;
+  font-size: 16px;
+  margin-right: 2rem;
+
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: $blue;
+    }
+
+    a.active {
+      color: $black;
+      font-weight: bold;
+    }
+  }
+
+  li:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .posters-nav {
+    margin: 0;
+  }
+}
