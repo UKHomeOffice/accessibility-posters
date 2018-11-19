@@ -60,6 +60,17 @@
   }
 }
 
+.poster-heading {
+  display: flex;
+  padding-bottom: 2rem;
+  border-bottom: 16px solid #AAA;
+  margin-bottom: 3rem;
+}
+
+.anxiety {
+  border-bottom: 16px solid $anxiety;
+}
+
 @media all and (min-width: 60em) {
   .poster-card-item {
     width: 45%;
