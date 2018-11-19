@@ -9,6 +9,22 @@ body {
   padding: 30px 20px;
 }
 
+.posters {
+
+  section {
+    margin-bottom: 4.5rem;
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  section:last-child {
+    margin-bottom: 1.5rem;
+  }
+
+}
+
 .poster-sets {
   padding-left: 5px;
 }
@@ -16,6 +32,13 @@ body {
 @media (max-width: 690px) {
   .hero, main {
     padding: 20px 15px;
+  }
+
+  .posters {
+
+    section {
+      margin-bottom: 2rem;
+    }
   }
 }
 
