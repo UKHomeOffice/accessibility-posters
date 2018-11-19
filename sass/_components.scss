@@ -71,6 +71,44 @@
   border-bottom: 16px solid $anxiety;
 }
 
+.button {
+  font-family: 'Inter UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.1875;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding: 7px 10px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  color: #fff;
+  background-color: $green;
+  -webkit-box-shadow: 0 2px 0 #003618;
+  box-shadow: 0 2px 0 #003618;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.button:hover {
+  background-color: darken( $green, 5% )
+}
+
+@media all and (max-width: 45em) {
+  .button {
+    width:100%;
+  }
+}
+
 @media all and (min-width: 60em) {
   .poster-card-item {
     width: 45%;
