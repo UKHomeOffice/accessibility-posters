@@ -9,12 +9,42 @@ body {
   padding: 30px 20px;
 }
 
-.poster-section {
-  border-bottom: 3px $anxiety solid;
+.poster-section__anxiety {
   padding: 2rem 0;
+  border-bottom: 3px $anxiety solid;
 }
 
-.poster-section:last-child {
+.poster-section__autism {
+  padding: 2rem 0;
+  border-bottom: 3px $autism solid;
+}
+
+.poster-section__deaf {
+  padding: 2rem 0;
+  border-bottom: 3px $deaf solid;
+}
+
+.poster-section__dyslexia {
+  padding: 2rem 0;
+  border-bottom: 3px $dyslexia solid;
+}
+
+.poster-section__lowvision {
+  padding: 2rem 0;
+  border-bottom: 3px $lowvision solid;
+}
+
+.poster-section__physical {
+  padding: 2rem 0;
+  border-bottom: 3px $physical solid;
+}
+
+.poster-section__screenreaders {
+  padding: 2rem 0;
+  border-bottom: 3px $screenreaders solid;
+}
+
+.poster-section__autism:last-child, .poster-section__anxiety:last-child {
   border-bottom: none;
 }
 
