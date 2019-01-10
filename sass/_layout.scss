@@ -9,25 +9,19 @@ body {
   padding: 30px 20px;
 }
 
-.posters {
+.poster-section {
+  border-bottom: 3px $anxiety solid;
+  padding: 2rem 0;
+}
 
-  section {
-    margin-bottom: 4.5rem;
-
-    ul {
-      margin-bottom: 0;
-    }
-  }
-
-  section:last-child {
-    margin-bottom: 1.5rem;
-  }
-
+.poster-section:last-child {
+  border-bottom: none;
 }
 
 .poster-sets {
   padding-left: 5px;
 }
+
 
 @media (max-width: 690px) {
   .hero, main {
