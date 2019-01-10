@@ -63,12 +63,12 @@
 .poster-heading {
   display: flex;
   padding-bottom: 2rem;
-  border-bottom: 16px solid #AAA;
-  margin-bottom: 3rem;
+  border-bottom: 14px solid #AAA;
+  margin-bottom: 1.5rem;
 }
 
 .anxiety {
-  border-bottom: 16px solid $anxiety;
+  border-bottom: 14px solid $anxiety;
 }
 
 .button {
@@ -101,6 +101,12 @@
 
 .button:hover {
   background-color: darken( $green, 5% )
+}
+
+.header-svg {
+  width: 120px;
+  height: auto;
+  padding-left: 10px;
 }
 
 @media all and (max-width: 45em) {
