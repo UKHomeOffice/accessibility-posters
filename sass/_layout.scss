@@ -3,7 +3,7 @@ body {
   background-color: $lightgrey;
 }
 
-.hero, main {
+main {
   margin: 0 auto;
   max-width: 960px;
   padding: 30px 20px;
@@ -49,13 +49,13 @@ body {
 }
 
 .poster-sets {
-  padding-left: 5px;
+  margin-left: -8px;
 }
 
 
 @media (max-width: 690px) {
-  .hero, main {
-    padding: 20px 15px;
+  main {
+    padding: 20px 20px;
   }
 
   .posters {
