@@ -1,48 +1,90 @@
-.card, .poster-card {
+
+// Homepage card
+.card-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  list-style: none;
+}
+
+.card {
+  border-radius: 0.2rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .text {
+    padding: 1rem;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    h2.heading-large {
+      font-size: 28px;
+      margin-top: 5px;
+
+      a {
+        color: $black;
+        text-decoration: none;
+      }
+    }
+
+    img {
+      align-self: flex-end;
+      width: 40%;
+      height: auto;
+    }
+  }
+}
+
+.card .text :last-child {
+  margin-top: auto;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 0px 5px rgba(138,138,138,1);
+}
+
+.card a:focus {
+    text-decoration: underline;
+}
+
+.card:focus-within {
+    box-shadow: 0px 0px 0px 5px rgba(138,138,138,1);
+}
+
+.card:focus-within a:focus {
+    text-decoration: none;
+}
+
+.card a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+// Poster card
+
+.poster-card {
   display: flex;
   flex-wrap: wrap;
 }
 
-.card-item, .poster-card-item {
+.poster-card-item {
   display: flex;
   padding: 0.5em;
   width: 100%;
-}
-
-.poster-card-item {
   flex-wrap: wrap;
 }
 
 .poster-card {
   margin-left: -25px;
-}
-
-.card-content {
-   display: flex;
-   justify-content: space-between;
-   flex-direction: column;
-   background-color: $white;
-   padding: 1em;
-   width: 100%;
-
-   .heading-large {
-     font-size: 28px;
-   }
-
-   h2 {
-     margin-top: 5px;
-
-     a {
-       color: $black;
-       text-decoration: none;
-     }
-   }
-
-   img {
-     align-self: flex-end;
-     width: 40%;
-     height: auto;
-   }
 }
 
 .poster-card-content {
@@ -95,6 +137,8 @@
   border-bottom: 14px solid $screenreaders;
 }
 
+// button
+
 .button {
   font-family: 'Inter UI', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -145,50 +189,10 @@
   }
 }
 
-@media all and (min-width: 40em) {
-  .card-item {
-    width: 45%;
-  }
-}
-@media all and (min-width: 60em) {
-  .card-item {
-    width: 31.33%;
-  }
-}
-
 .poster-card__do {
   border-bottom: 5px $green solid;
 }
 
 .poster-card__dont {
   border-bottom: 5px $red solid;
-}
-
-
-a .anxiety:hover {
-  background-color: $anxiety;
-}
-
-a .autism:hover {
-  background-color: $autism;
-}
-
-a .deaf:hover {
-  background-color: $deaf;
-}
-
-a .dyslexia:hover {
-  background-color: $dyslexia;
-}
-
-a .lowvision:hover {
-  background-color: $lowvision;
-}
-
-a .physical:hover {
-  background-color: $physical;
-}
-
-a .screenreaders:hover {
-  background-color: $screenreaders;
 }
