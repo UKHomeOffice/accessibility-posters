@@ -10,44 +10,44 @@ main {
 }
 
 .poster-section {
-  padding: 2rem 0;
+  padding: 2.5rem 0;
 
   p {
     padding-top: 1rem;
   }
 }
 
-.poster-section:last-child {
-  border-bottom: none;
-}
+// .poster-section:last-child {
+//   border-bottom: none;
+// }
 
-.poster-section__anxiety {
-  border-bottom: 3px $anxiety solid;
-}
-
-.poster-section__autism {
-  border-bottom: 3px $autism solid;
-}
-
-.poster-section__deaf {
-  border-bottom: 3px $deaf solid;
-}
-
-.poster-section__dyslexia {
-  border-bottom: 3px $dyslexia solid;
-}
-
-.poster-section__lowvision {
-  border-bottom: 3px $lowvision solid;
-}
-
-.poster-section__physical {
-  border-bottom: 3px $physical solid;
-}
-
-.poster-section__screenreaders {
-  border-bottom: 3px $screenreaders solid;
-}
+// .poster-section__anxiety {
+//   border-bottom: 3px $anxiety solid;
+// }
+//
+// .poster-section__autism {
+//   border-bottom: 3px $autism solid;
+// }
+//
+// .poster-section__deaf {
+//   border-bottom: 3px $deaf solid;
+// }
+//
+// .poster-section__dyslexia {
+//   border-bottom: 3px $dyslexia solid;
+// }
+//
+// .poster-section__lowvision {
+//   border-bottom: 3px $lowvision solid;
+// }
+//
+// .poster-section__physical {
+//   border-bottom: 3px $physical solid;
+// }
+//
+// .poster-section__screenreaders {
+//   border-bottom: 3px $screenreaders solid;
+// }
 
 .poster-sets {
   margin-left: -8px;
