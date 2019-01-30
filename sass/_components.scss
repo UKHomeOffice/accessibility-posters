@@ -69,38 +69,118 @@
     bottom: 0;
 }
 
-// Poster card
+// Block card
 
-.poster-card {
-  display: flex;
-  flex-wrap: wrap;
-}
+.block-card-wrapper {
+  list-style: none;
+  max-width: 750px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 
-.poster-card-item {
-  display: flex;
-  padding: 0.5em;
-  width: 100%;
-  flex-wrap: wrap;
-}
+  li {
+    margin-bottom: 1.2em;
+  }
 
-.poster-card {
-  margin-left: -25px;
-}
+  .block-card {
+    background-color: #FFF;
+    padding: 0.1rem 1.5rem;
+    position: relative;
+    box-sizing: border-box;
 
-.poster-card-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: $white;
-  padding: 1em;
-  width: 100%;
+    h2.heading-large {
+      font-weight: 400;
+      font-size: 26px;
+      margin: 18px 0;
+    }
 
-  img {
-    width: 40%;
-    height: auto;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    a:hover {
+      color: $blue;
+    }
   }
 }
+
+.block-card--anxiety {
+  border-bottom: 3px solid $anxiety;
+}
+
+.block-card--anxiety:hover, .block-card--anxiety:focus-within {
+  border: 3px solid $anxiety;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--autism {
+  border-bottom: 3px solid $autism;
+}
+
+.block-card--autism:hover, .block-card--autism:focus-within {
+  border: 3px solid $autism;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--deaf {
+  border-bottom: 3px solid $deaf;
+}
+
+.block-card--deaf:hover, .block-card--deaf:focus-within {
+  border: 3px solid $deaf;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--dyslexia {
+  border-bottom: 3px solid $dyslexia;
+}
+
+.block-card--dyslexia:hover, .block-card--dyslexia:focus-within {
+  border: 3px solid $dyslexia;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--lowvision {
+  border-bottom: 3px solid $lowvision;
+}
+
+.block-card--lowvision:hover, .block-card--lowvision:focus-within {
+  border: 3px solid $lowvision;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--physical {
+  border-bottom: 3px solid $physical;
+}
+
+.block-card--physical:hover, .block-card--physical:focus-within {
+  border: 3px solid $physical;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card--screenreaders {
+  border-bottom: 3px solid $screenreaders;
+}
+
+.block-card--screenreaders:hover, .block-card--screenreaders:focus-within {
+  border: 3px solid $screenreaders;
+  margin: -3px -3px 1.2em -3px;
+}
+
+.block-card a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.block-card:focus-within a:focus {
+    text-decoration: none;
+}
+
+// Poster header
 
 .poster-header {
   display: flex;
